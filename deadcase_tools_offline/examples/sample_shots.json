@@ -1,0 +1,6 @@
+[
+  {"start": 0.0, "end": 3.2, "avg_brightness": 0.18, "motion": 0.22},
+  {"start": 3.2, "end": 7.8, "avg_brightness": 0.55, "motion": 0.12},
+  {"start": 7.8, "end": 12.5, "avg_brightness": 0.28, "motion": 0.71},
+  {"start": 12.5, "end": 17.9, "avg_brightness": 0.62, "motion": 0.35}
+]
