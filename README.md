@@ -11,7 +11,8 @@ deadcase_tools_offline/
     sample_shots.json
     sample_edit_map.json
   resolve/
-    apply_edits_in_resolve.py  # DaVinci-Stub: Marker/Platzhalter setzen
+    apply_edits_in_resolve.py  # DaVinci-Python-Stub (Konsole)
+    DeadCaseAI_ApplyEdits.lua  # DaVinci-Lua-Script fürs Scripts-Menü
 ```
 
 ## Nutzung
@@ -26,10 +27,13 @@ deadcase_tools_offline/
    ```
    Unterstützte Styles (heuristisch): `horror_truecrime`, `analog_horror`.
 
-3. **In DaVinci Resolve anwenden (Stub):**
-   - Script in der Resolve-Konsole ausführen: `deadcase_tools_offline/resolve/apply_edits_in_resolve.py`
-   - Pfad zu `edit_map.json` angeben.
-   - Marker erscheinen an den konfigurierten Zeitpunkten. Effekte können später ergänzt werden.
+3. **In DaVinci Resolve anwenden:**
+   - **Lua-Script über das Scripts-Menü**: `deadcase_tools_offline/resolve/DeadCaseAI_ApplyEdits.lua`
+     - Datei z. B. nach `%APPDATA%/Blackmagic Design/DaVinci Resolve/Support/Fusion/Scripts/Edit/` kopieren.
+     - Resolve neu starten → `Workspace → Scripts → Edit → DeadCaseAI_ApplyEdits` auswählen.
+     - edit_map.json wählen, Marker werden gesetzt.
+   - **Alternativ (Konsole)**: `deadcase_tools_offline/resolve/apply_edits_in_resolve.py`
+     - In der Resolve-Script-Konsole ausführen und Pfad zu `edit_map.json` angeben.
 
 ## Beispiele
 - `examples/sample_shots.json` liefert 4 Beispiel-Shots.
