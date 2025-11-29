@@ -1,0 +1,7 @@
+[
+  {"time": 1.6, "action": "cut"},
+  {"time": 7.55, "action": "flash", "color": "white", "duration": 0.2},
+  {"time": 7.8, "action": "glitch", "duration": 0.4, "intensity": "high"},
+  {"time": 10.0, "action": "marker", "label": "beat"},
+  {"time": 12.5, "action": "marker", "label": "tension_point"}
+]
